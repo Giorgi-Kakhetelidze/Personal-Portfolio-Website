@@ -74,6 +74,14 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
+@media (min-width: 992px) {
+  .container, .container-lg, .container-md, .container-sm {
+      max-width: 1200px;
+  }
+}
+
+
+
 p.success {
 	color: green;
 }
@@ -305,6 +313,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 1200px) {
+  .align-items-center.row {
+    width: 90%;
+  }
+
+  .middle-section {
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  .banner p{
+    width: 100%;
+  }
+}
+
 
 @keyframes updown {
     0% {
@@ -597,6 +620,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 200px;
   justify-content: center;
   align-items: center;
+
 }
 
 .new-email-bx {

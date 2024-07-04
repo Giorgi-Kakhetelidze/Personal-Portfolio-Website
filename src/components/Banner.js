@@ -53,9 +53,9 @@ const Banner = () => {
 
   return (
     <section className="banner" id="home">
-      <Container>
+      <Container className="section1" >
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={12}>
+          <Col xs={12} md={10} xl={12}>
             <span className="tagline">Welcome to my Portfolio</span>
 
             <div className="middle-section">
@@ -70,7 +70,7 @@ const Banner = () => {
             </div>
 
             <p >
-              I am a third-year Information Technologies student at the Business
+              I am a fourth-year Information Technologies student at the Business
               and Technology University (BTU), specializing in web development.
               Proficient in HTML, CSS, and JavaScript,Python(basics). I have
               also developed a strong command of React over the past six months,

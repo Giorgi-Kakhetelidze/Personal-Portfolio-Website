@@ -11,7 +11,8 @@ const Skills = () => {
     { name: "Bootstrap", percentage: 75 },
     { name: "Git/Github", percentage: 70 },
     { name: "Python", percentage: 40 },
-    { name: "typescript", percentage: 70}
+    { name: "typescript", percentage: 70},
+    { name: "Tailwind CSS", percentage: 70}
 
     // Add more skills
   ];

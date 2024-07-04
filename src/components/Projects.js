@@ -6,6 +6,7 @@ import movieWeb from "../assets/img/movie-website.png";
 import personalWeb from "../assets/img/personal-website.png";
 import expenseWeb from "../assets/img/expense-tracker-website.png";
 import weatherWeb from "../assets/img/weatherWebsite.png";
+import nikeWeb from "../assets/img/nike-web.png";
 
 
 const Projects = () => {
@@ -38,6 +39,12 @@ const Projects = () => {
       githubLink: "https://kaxeta007.github.io/Mini-weather-website-React/"
     },
 
+    {
+      title: "Nike Website Clone",
+      description: "Using React(Tailwind CSS, Responsive)",
+      imgUrl: nikeWeb,
+      githubLink: "https://kaxeta007.github.io/Nike-Web-Clone/"
+    }
     
   ];
 
