@@ -7,7 +7,7 @@ import personalWeb from "../assets/img/personal-website.png";
 import expenseWeb from "../assets/img/expense-tracker-website.png";
 import weatherWeb from "../assets/img/weatherWebsite.png";
 import nikeWeb from "../assets/img/nike-web.png";
-
+import educity from "../assets/img/educity.png"
 
 const Projects = () => {
   const projects = [
@@ -44,7 +44,14 @@ const Projects = () => {
       description: "Using React(Tailwind CSS, Responsive)",
       imgUrl: nikeWeb,
       githubLink: "https://kaxeta007.github.io/Nike-Web-Clone/"
-    }
+    },
+    
+    {
+      title: "EduCity Website",
+      description: "Using React(Tailwind CSS, Responsive)",
+      imgUrl: educity,
+      githubLink: "https://kaxeta007.github.io/EduCity-project/"
+    },
     
   ];
 
