@@ -5,14 +5,14 @@ import ProgressBar from "react-bootstrap/ProgressBar";
 
 const Skills = () => {
   const skills = [
-    { name: "HTML, CSS", percentage: 90 },
-    { name: "SCSS/SASS", percentage: 100 },
-    { name: "Javascript, React", percentage: 70 },
+    { name: "HTML, CSS", percentage: 99 },
+    { name: "SCSS/SASS", percentage: 99 },
+    { name: "Javascript, React", percentage: 80 },
     { name: "Bootstrap", percentage: 75 },
     { name: "Git/Github", percentage: 70 },
     { name: "Python", percentage: 40 },
     { name: "typescript", percentage: 70},
-    { name: "Tailwind CSS", percentage: 70}
+    { name: "Tailwind CSS", percentage: 90}
 
     // Add more skills
   ];
