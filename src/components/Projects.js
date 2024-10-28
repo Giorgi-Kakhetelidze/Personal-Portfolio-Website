@@ -8,6 +8,9 @@ import expenseWeb from "../assets/img/expense-tracker-website.png";
 import weatherWeb from "../assets/img/weatherWebsite.png";
 import nikeWeb from "../assets/img/nike-web.png";
 import educity from "../assets/img/educity.png"
+import Redberry from "../assets/img/redberry.png";
+import Library from "../assets/img/library.png";
+
 
 const Projects = () => {
   const projects = [
@@ -51,6 +54,20 @@ const Projects = () => {
       description: "Using React(Tailwind CSS, Responsive)",
       imgUrl: educity,
       githubLink: "https://kaxeta007.github.io/EduCity-project/"
+    },
+    
+    {
+      title: "Redberry Project",
+      description: "Using React(Validations,SCSS,Responsive)",
+      imgUrl: Redberry,
+      githubLink: "https://chess-project-kappa.vercel.app/"
+    },
+    
+    {
+      title: "Library Project(Try with incognito mode)",
+      description: "Using React(Validations,SCSS,Responsive,API and lots of functionalities.)",
+      imgUrl: Library,
+      githubLink: "https://library-project-react-rmq9-giorgis-projects-3ddad499.vercel.app/"
     },
     
   ];
